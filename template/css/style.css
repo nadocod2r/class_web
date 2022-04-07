@@ -1,0 +1,34 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Open Sans";
+	line-height: 1.618em;
+}
+.wrapper{
+	max-width: 60rem;
+	width: 100%;
+	margin:5rem auto;
+	position:relative;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	font-size: 1.2em;
+}
+.menu_item{
+	height: 3em;
+	line-height: 3em;
+}
+.menu_item a{
+	display: block;
+	background:#3489db;
+	color:#fff;
+	border-right:0.25em solid #fff;
+}
+.menu_item:last-child a{
+	border-right:0;
+}

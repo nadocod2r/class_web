@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS LECTURE _ radio & checkbox</title>
+    <style>
+        <!-- html{
+            height:100vh;
+        }
+        body{
+            margin:0 auto;
+            height:100vh;
+        } -->
+
+        input + span{
+            font-size: 50px;
+        }
+        input:enabled + span{
+            color:skyblue;
+        }
+        <!-- input:disabled + span{
+            color:red;
+        } -->
+
+        input:checked + span{
+            color:red;
+        }
+        
+        <!-- p{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        } -->
+    </style>
+</head>
+<body>
+    <p>
+        <label for="boy">
+            <input type="radio" name="gender" id="boy" value="남" checked><span>남자</span>
+        </label>
+    </p>
+    <p>
+    <label for="girl">
+        <input type="radio" name="gender" id="girl" value="여"><span>여자</span>
+    </label>
+    </p>
+
+    <hr>
+
+    <label for="car">
+        <input type="checkbox" value="car" id="car" ><span>car</span>
+    </label>
+    <label for="motorcycle">
+        <input type="checkbox" value="motorcycle" id="motorcycle" ><span>motocycle</span>
+    </label>
+    <label for="cycle">
+        <input type="checkbox" value="cycle" id="cycle" ><span>cycle</span>
+    </label>
+    <label for="bus">
+        <input type="checkbox" value="bus" id="bus" ><span>bus</span>
+    </label>
+</body>
+</html>

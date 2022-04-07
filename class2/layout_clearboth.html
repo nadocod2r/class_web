@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Clear:both</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+
+        }
+        body{
+            width-max:900px;
+            width:860px;
+            margin:auto;
+        }
+        li{
+            list-style-type:none;
+        }
+        .head{
+            background:#f6f5ef;
+        }
+        .logo{
+            float:left;
+            margin:20px 0 10px 20px;
+            border:1px solid red;
+            line-height:50px;
+            padding:0 10px;
+        }
+        .top{
+            float:right;
+            margin:20px 20px 20px 0;
+            border:1px solid red;
+            line-height:50px;
+            padding:0 10px;
+        }
+<!--        .menu:before{-->
+<!--            content:'';-->
+<!--            display:block;-->
+<!--            clear:both;-->
+<!--        }-->
+        .menu{
+            clear:both;
+            height:40px;
+            background:#443e58;
+            color:white;
+            text-align:center;
+            padding-top:15px;
+            font-size:20px;
+            border:1px solid red;
+        }
+        .menu li{
+            display:inline;
+        }
+        .item{
+            margin:0 30px 0 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <img src="" alt="">LOGO
+        </div>
+        <div class="top">
+            로그인 : 회원가입 : 공지사항
+        </div>
+        <ul class="menu">
+            <li class="item">HTML</li>
+            <li>|</li>
+            <li class="item">CSS</li>
+            <li>|</li>
+            <li class="item">Javascript</li>
+            <li>|</li>
+            <li class="item">Python</li>
+            <li>|</li>
+            <li class="item">Java</li>
+            <li>|</li>
+            <li class="item">JSP</li>
+        </ul>
+    </div>
+</body>
+</html>

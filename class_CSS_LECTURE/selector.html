@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS LECTURE _ SELECTOR input tag</title>
+    <style>
+        input[type="text"]:valid,input[type="phone"]:valid,input[type="email"]:valid{
+            background-color:skyblue;
+        }
+        input[type="text"]:invalid{
+            background-color:#eee;
+        }
+        input[type="text"]:hover ,input[type="phone"]:hover,input[type="email"]:hover{
+            background:dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <p><label for="id">ID</label> : <input type="text" id="id" placeholder="abc1234" required autofocus></p>
+    <p><label for="pw">PW</label> : <input type="text" id="pw" placeholder="abc1234"></p>
+    <p><label for="phone">PHONE</label> : <input type="phone" id="phone" placeholder="010-1234-1234" pattern="\d{3}-\d{3,4}-\d{4}$"></p>
+    <p><label for="email">EMAIL</label> : <input type="email" id="email" placeholder="abc@gmail.com" pattern='[a-zA-Z0-9]{8}'></p>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS LECTURE _ LIST</title>
+    <style>
+        ul>li{
+            list-style:none;
+        }
+        .menu1 li{
+            color:red;
+        }
+        .menu1>li:nth-child(2){
+            color:green;
+        }
+        .menu2 li{
+            color:blue;
+        }
+        .menu2>li:nth-child(2){
+            color:green;
+        }
+
+    </style>
+</head>
+<body>
+    <div>박스로 만들기</div>
+    <ul class="menu1">
+        <li class="a">coffee</li>
+        <li class="b">gree tea</li>
+        <li class="c">orange juice</li>
+        <li class="d">milk tea</li>
+    </ul>
+    <h2>h2 다음 ul</h2>
+        <ul class="menu2">
+            <li class="a">coffee</li>
+            <li class="b">gree tea</li>
+            <li class="c">orange juice</li>
+            <li class="d">milk tea</li>
+        </ul>
+    
+</body>
+</html>
