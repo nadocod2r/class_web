@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Form_radio_check</title>
+</head>
+<body>
+    <form action="">
+        <h2>정보공개</h2>
+        <p>
+            <input type="radio" id="open" name="info" checked>
+            <label for="open">공개</label>
+            <input type="radio" id="noopen" name="info">
+            <label for="noopen">비공개</label>
+        </p>
+        <h2>취미</h2>
+        <p>
+            <input type="checkbox" id="badmin">
+            <label for="badmin">배드민턴</label>
+            <input type="checkbox" id="music" checked>
+            <label for="music">음악감상</label>
+            <input type="checkbox" id="play" checked>
+            <label for="play">악기연주</label>
+        </p>
+        <h2>파일</h2>
+        <p>
+            <input type="file" id="file">
+        </p>
+        <h2>이메일</h2>
+        <p>
+            <input type="text">@
+        </p>
+        <h2>선택</h2>
+        <p>
+            <select>
+                <option value="">선택</option>
+                <option value="">naver.com</option>
+                <option value="">google.com</option>
+                <option value="">nate.com</option>
+                <option value="">직접입력</option>
+            </select>
+        </p>
+        <h2>인사말 남기기</h2>
+        <p>
+            <textarea rows="5" cols="60"></textarea>
+        </p>
+        <h2>버튼</h2>
+        <p>
+            <input type="button" value="입력완료" onclick="alert('입력완료')">
+        </p>
+    </form>
+</body>
+</html>

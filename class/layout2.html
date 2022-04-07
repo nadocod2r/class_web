@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <style>
+        li{
+            list-style-type:none;
+        }
+        .v_menu{
+            width:150px;
+        }
+        .v_menu li{
+            padding:5px;
+            border-bottom:1px dotted black;
+        }
+        .h_menu li{
+            display:inline;
+        }
+        .menus{
+            margin: 0 20px 0 20px;
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <nav></nav>
+    </header>
+    <main>
+        <section>
+            <h3>1. 세로 메뉴</h3>
+            <ul class="v_menu">
+                <li>C언어</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>WEB</li>
+            </ul>
+            <h3>2. 가로 메뉴</h3>
+            <ul class="h_menu">
+                <li class="menus">회사소개</li>
+                <li>|</li>
+                <li class="menus">제품안내</li>
+                <li>|</li>
+                <li class="menus">고객센터</li>
+                <li>|</li>
+                <li class="menus">매장안내</li>
+            </ul>
+        </section>
+        <aside></aside>
+    </main>
+    <footer>
+        <address></address>
+    </footer>
+</body>
+</html>

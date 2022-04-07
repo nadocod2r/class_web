@@ -1,0 +1,122 @@
+
+<!DOCTYPE html> <!-- layout.html Html5-->
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Layout</title>
+    </head>
+    <style>
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 995px;
+            height: 100px;
+            margin-top: 10px;
+            border: solid 1px green;
+        }
+        nav {
+            width: 995px;
+            height: 70px;
+            margin-top: 10px;
+            border: solid 1px green;
+            background:gray;
+        }
+        ul>li{
+            float:left;
+            margin-right:20px;
+            list-style-type:none;
+
+        }
+        ul>li>a{
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:none;
+        }
+        ul>li>a:hover{
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            width: 700px;
+            height: 480px;
+            float: left;
+            margin-top: 10px;
+            border: solid 1px green;
+        }
+        aside {
+            width: 270px;
+            height: 480px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
+            border: solid 1px green;
+        }
+        footer {
+            width: 995px;
+            height: 130px;
+            margin-top: 10px;
+            border: solid 1px green;
+        }
+        /*  클래스를 이용하여  <header> 크기 고정  */
+
+
+        .cropping{
+            width: 995px;
+            max-height: 100px;
+            overflow: hidden;
+        }
+
+        </style>
+    <body>
+    <header>
+
+      <!-- 1.상단 헤더  -->
+<!--       <div width="955px" class="cropping"><img src="img/sky.jpg"></div>-->
+        <h1>공부를 열심히 합니다.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href ="home.html" target="home">HOME</a></li>
+            <li><a href ="html.html" target="home">HTML</a></li>
+            <li><a href ="css.html" target="home">CSS</a></li>
+            <li><a href ="javascript.html" target="home">Javascript</a></li>
+            <li><a href ="java.html" target="home">Java</a></li>
+            <li><a href ="jsp.html" target="home">JSP</a></li>
+        </ul>
+    </nav>
+    <section>
+
+        <iframe name="home" width="700" height="480" src=" " ></iframe>
+
+
+         <!--  3.메인 콘텐츠   -->
+    </section>
+    <aside>
+
+     <! -- 4.사이드바   -->
+     내가할 수 있는 프로그램 ...(주제 각자 정해도 됨)
+        <h2>파이썬을 열심히 합니다.</h2>
+        <iframe name="side" width="250" height="300" src=" " ></iframe>
+
+
+
+    </aside>
+    <div class='clear'></div>
+    <footer> <!--
+
+    5. 하단 푸터  -->
+     자신이 연락처
+     이메일
+     홈페이지
+     SNS주소
+        <h2>스팸문자금지</h2>
+        <address>
+
+        </address>
+    </footer>
+</body>
+</html>

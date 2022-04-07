@@ -1,0 +1,16 @@
+@media(max-width:800px){
+    body{
+        background-color: skyblue;    
+    }
+    .image-row{
+        /* 첫번째 방법 flex:none은 해야된다*/
+        /* flex-direction: column; */
+        
+        /* 두번째 방법, .image-row div와 같이 사용한다 */
+        flex-wrap: wrap;
+    }
+    .image-row div{
+        width: 100%;
+        flex:none;
+    }
+}

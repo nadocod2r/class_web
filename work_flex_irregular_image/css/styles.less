@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+@rd:red;
+@bl:blue;
+@gr:green;
+
+@maincolor: #444444;
+@titlecolor: (@maincolor - #222222);
+@linkcolor: (@maincolor + #222222);
+@mainFontSize:20px;
+body{
+    color: @maincolor;
+    font-size: @mainFontSize;
+
+}
+h1{
+    color:@titlecolor;
+}
+a{
+    color:@linkcolor;
+}

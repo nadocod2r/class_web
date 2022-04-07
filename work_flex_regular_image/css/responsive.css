@@ -1,0 +1,5 @@
+@media (max-width:600px){
+    .image-grid div{
+        width:100%;
+    }
+}
