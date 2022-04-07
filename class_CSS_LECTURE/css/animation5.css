@@ -1,0 +1,21 @@
+div{
+    width:100px; height:60px;
+    text-align:center;
+    line-height:60px;
+    position:relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    animation: mymove 8s infinite;
+    }
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: linear;}
+#div4 {animation-timing-function: ease-in;}
+#div5 {animation-timing-function: ease-in-out;}
+@-webkit-keyframes mymove {
+from {left : 0px;}
+to{left: 300px;}
+}
+@keyframes mymove {
+from {left : 0px;}
+to{left: 300px;}
+}

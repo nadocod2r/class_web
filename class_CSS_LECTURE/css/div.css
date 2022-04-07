@@ -1,0 +1,40 @@
+body{
+    margin:0 auto;
+}
+
+div { 
+    width: 200px;
+    height: 100px;
+    border:10px solid maroon;
+    box-sizing: border-box;
+    /* text-align: center;
+    line-height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first { 
+    background-color: aqua;
+    border:10px solid gold;
+}
+.second { 
+    background-color: green;
+    border:10px solid skyblue
+}
+.third {
+    background-color: yellow;
+    border:10px solid pink;
+    height:100px;
+}
+
+.inline { 
+    display: inline;
+    height:100px;
+}
+.inline-block {
+    display: inline-block;
+    height:100px;
+    margin:5px 0;
+}

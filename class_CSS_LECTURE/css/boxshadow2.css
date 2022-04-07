@@ -1,0 +1,21 @@
+div {
+    background-color: lightgray;
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+}
+#shadow_01 { 
+    box-shadow: 5px 5px; 
+}
+#shadow_02 { 
+    box-shadow: 5px 5px orange; 
+}
+#shadow_03 { 
+    box-shadow: 5px 5px 10px; 
+}
+#shadow_04 { 
+    box-shadow: 0 0 15px red; 
+}
+#shadow_05 {
+    box-shadow: 5px 5px 10px black, 0 0 15px purple, 0 0 30px maroon;
+}

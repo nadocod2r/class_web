@@ -1,0 +1,28 @@
+.container {
+    border: 3px solid red;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.position {
+    width: 150px;
+    height: 50px;
+    top: 100px;
+    left: 120px;
+}
+.static {
+    border: 3px solid black;
+    position: static;
+}
+.relative {
+    border: 3px solid green;
+    position: relative;
+}
+.fixed {
+    border: 3px solid orange;
+    position: fixed;
+}
+.absolute {
+    border: 3px solid blue;
+    position: absolute;
+}

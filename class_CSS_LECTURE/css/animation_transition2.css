@@ -1,0 +1,31 @@
+div {
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    animation: timingFunc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#div_01 {
+    animation-timing-function: linear;
+}
+#div_02 {
+    animation-timing-function: ease;
+}
+#div_03 {
+    animation-timing-function: ease-in;
+}
+#div_04 {
+    animation-timing-function: ease-out;
+}
+#div_05 {
+    animation-timing-function: ease-in-out;
+}
+@keyframes timingFunc {
+    from { left: 0px; }
+    to { left: 300px; }
+}

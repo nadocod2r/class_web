@@ -1,0 +1,44 @@
+body{
+    margin:0 auto;
+    padding:0;
+}
+div{
+    width:100px; 
+    height:100px;
+    text-align:center;
+    line-height:100px;
+    font-weight:bold;
+    position:relative;
+    top:100px;
+    transition:all 5s;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+  
+
+.ani1{
+    background-color: skyblue;
+    animation-fill-mode: forwards;
+}
+/* .ani2{
+    background-color: orange;
+    animation-fill-mode: forwards;
+}
+.ani3{
+    background-color: gold;
+    animation-fill-mode: both;
+    
+}
+.ani4{
+    background-color: hotpink;
+    animation-fill-mode: alternate;
+} */
+
+@keyframes example{
+    from{left:0;}
+    to{left:200px; background-color: coral;}
+}
+/* 0%{left:0;}
+50%{}
+100%{left:300px;} */

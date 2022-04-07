@@ -1,0 +1,14 @@
+p {
+    height: 100px;
+    width: 400px;
+    border: 10px solid orange;
+    border-radius: 10px;
+    background:skyblue;
+    color:white;
+    animation-name: movingText;
+    animation-duration: 3s;
+}
+@keyframes movingText {
+    from { margin-left: 100%; }
+    to { margin-left: 0%; }
+}

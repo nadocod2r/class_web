@@ -1,0 +1,35 @@
+.btn {
+    background-color: orange;
+    height: 70px;
+    width: 150px;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.btn span::after {
+    content: "▶";
+    color: white;
+    position: absolute;
+    top: -2px;
+    right: -22px;
+    opacity: 0;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.btn:hover span { padding-right: 30px; }
+.btn:hover span::after {
+    opacity: 1;
+    right: 0px;
+}

@@ -1,0 +1,17 @@
+.left {
+    background-color: #FF8C00;
+    width: 150px;
+    height: 50px; 
+    float: left;
+}
+.right {
+    background-color: #9932CC;
+    width: 150px;
+    height: 50px; 
+    float: right;
+}
+  .wrap::after{
+       content:'';
+      display:block;
+      clear:both;
+}

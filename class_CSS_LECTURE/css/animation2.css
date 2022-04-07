@@ -1,0 +1,14 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 10px solid orange;
+    border-radius: 10px;
+    background:skyblue;
+    color:white;
+    animation-name: movingbox;
+    animation-duration: 5s;
+}
+@keyframes movingbox {
+    from { margin-left: 0; }
+    to { margin-left: 100%; }
+}

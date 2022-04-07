@@ -1,0 +1,33 @@
+div {
+    background-color: orange;
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    transition: all 1.5s;
+    color:white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 2px red;
+}
+div.one {
+    transition-timing-function: linear;
+}
+div.two {
+    transition-timing-function: ease;
+}
+div.three {
+    transition-timing-function: ease-in;
+}
+div.four {
+    transition-timing-function: ease-out;
+}
+div.five {
+    transition-timing-function: ease-in-out;
+}
+div:hover {
+    width: 500px;
+}
